@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapyd Checkout Toolkit</title>
+    <script src="https://sandboxcheckouttoolkit.rapyd.net"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        let operator = "A"
+        let checkout;
+        function loadTheme(val) {
+            operator = document.getElementById("operator").value;
+            if (checkout) {
+                checkout.closeCheckout();
+                loadThemeByOperator();
+            }
+        }
+        loadThemeByOperator();
+
+        function loadThemeByOperator() {
+            let cssJson = ''
+            $.getJSON("test.json", function (data) {
+                cssJson = data[operator];
+
+
+                checkout = new RapydCheckoutToolkit({
+                    pay_button_text: "Pay now",
+                    id: "checkout_9d4639fd1b463bcd06ca5ff24f457825",
+                    style: cssJson
+                });
+
+                checkout.displayCheckout();
+
+            })
+        };
+        window.addEventListener('onCheckoutPaymentSuccess', function (event) {
+            console.log(event.detail)
+            alert("success")
+        });
+        window.addEventListener('onCheckoutFailure', function (event) {
+            console.log(event.detail.error)
+            alert("error")
+        });
+    </script>
+</head>
+
+<body style="background-color: #f1f1f1; display: flex; align-items: center; flex-direction: column; margin: 0">
+    <select id="operator" onchange="loadTheme(this)">
+        <option value="A">Operator A</option>
+        <option value="B">Operator B</option>
+        <option value="C">Operator C</option>
+    </select>
+
+    <h1>Rapyd Checkout Toolkit Demo</h1>
+    <div style="width: 500px" id="rapyd-checkout"></div>
+</body>
+
+</html>
