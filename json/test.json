@@ -1,0 +1,770 @@
+{
+      "C": {
+            "input": {
+                  "base": {
+                        "borderColor": "#543515",
+                        "backgroundColor": "#543515",
+                        "borderRadius": "4px",
+                        "color": "#543515",
+                        "fontSize": "2.4rem",
+                        "fontWeight": 500,
+                        "fontFamily": ""
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": "",
+                        "labelColor": "#0046ff"
+                  },
+                  "error": {
+                        "borderColor": "#ff3650",
+                        "backgroundColor": "",
+                        "color": "",
+                        "labelColor": "#ff3650"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "2.4rem",
+                        "fontWeight": 500,
+                        "color": "#9ba2a7",
+                        "fontFamily": ""
+                  },
+                  "selection": {
+                        "color": "",
+                        "backgroundColor": ""
+                  },
+                  "disabled": {
+                        "backgroundColor": "#fbfbfb",
+                        "color": ""
+                  }
+            },
+            "cardFields": {
+                  "title": {
+                        "color": ""
+                  },
+                  "saveForFutureLabel": {
+                        "color": ""
+                  }
+            },
+            "requiredFields": {
+                  "title": {
+                        "color": ""
+                  }
+            },
+            "orderDetails": {
+                  "title": {
+                        "color": ""
+                  },
+                  "totalLabel": {
+                        "color": ""
+                  },
+                  "totalValue": {
+                        "color": ""
+                  }
+            },
+            "pciMessage": {
+                  "color": ""
+            },
+            "dropdown": {
+                  "backgroundColor": "",
+                  "title": {
+                        "color": ""
+                  },
+                  "base": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#1a1a1a",
+                        "borderColor": "#e9ecef",
+                        "backgroundColor": "#fff",
+                        "borderRadius": "4px",
+                        "fontFamily": ""
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": ""
+                  },
+                  "error": {
+                        "borderColor": "#ff3650",
+                        "backgroundColor": "",
+                        "color": "#ff3650"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#000",
+                        "fontFamily": ""
+                  },
+                  "disabled": {
+                        "color": "#9ba2a7",
+                        "backgroundColor": "#fbfbfb"
+                  },
+                  "item": {
+                        "transition": "0.3s",
+                        "base": {
+                              "backgroundColor": "#fff",
+                              "color": "#1a1a1a",
+                              "fontFamily": ""
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        },
+                        "hover": {
+                              "backgroundColor": "#f6f6f9",
+                              "color": ""
+                        },
+                        "selected": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        }
+                  },
+                  "list": {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": "4px",
+                        "boxShadow": "0 0 4px 0 rgba(110, 119, 125, 0.16)",
+                        "border": "solid 2px #e9ecef"
+                  }
+            },
+            "submit": {
+                  "base": {
+                        "backgroundColor": "",
+                        "color": "",
+                        "fontWeight": "",
+                        "fontSize": "",
+                        "borderRadius": "",
+                        "fontFamily": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "width": "",
+                        "height": "",
+                        "padding": "",
+                        "cursor": ""
+                  },
+                  "hover": {
+                        "backgroundColor": "",
+                        "color": "",
+                        "fontWeight": "",
+                        "borderRadius": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "color": "",
+                        "backgroundColor": ""
+                  }
+            },
+            "clear": {
+                  "base": {
+                        "width": "24px",
+                        "height": "24px",
+                        "padding": "10px",
+                        "borderRadius": "50%",
+                        "backgroundColor": "transparent",
+                        "cursor": "pointer"
+                  },
+                  "hover": {
+                        "backgroundColor": "#e9ecef",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "backgroundColor": "#d7dbdf"
+                  }
+            },
+            "tooltip": {
+                  "button": {
+                        "base": {
+                              "width": "16px",
+                              "height": "16px",
+                              "border": "solid 1px #6e777d",
+                              "borderRadius": "50%",
+                              "backgroundColor": "#ffffff"
+                        },
+                        "hover": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": "",
+                              "transition": "0.3s"
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": ""
+                        }
+                  },
+                  "content": {
+                        "base": {
+                              "padding": "16px 18px",
+                              "borderRadius": "4px",
+                              "boxShadow": "0 0 6px 0 rgba(0, 0, 0, 0.12)",
+                              "border": "solid 1px #ededed",
+                              "backgroundColor": "#ffffff"
+                        },
+                        "hover": {
+                              "padding": "",
+                              "borderRadius": "",
+                              "boxShadow": "",
+                              "border": "",
+                              "backgroundColor": "",
+                              "transition": "3000ms"
+                        }
+                  }
+            },
+            "cart": {
+                  "background": "none",
+                  "border": "none",
+                  "fontFamily": "inherit",
+                  "description": {
+                        "fontSize": "1.2rem",
+                        "fontWeight": 400,
+                        "color": "#1a1a1a"
+                  },
+                  "amount": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#1a1a1a"
+                  },
+                  "quantityTitle": {
+                        "fontSize": "1.2rem",
+                        "color": "#6e777d"
+                  },
+                  "quantityValue": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#4a4a4a"
+                  },
+                  "image": {
+                        "width": "",
+                        "height": "80px",
+                        "border": "none",
+                        "borderRadius": 0,
+                        "hover": {
+                              "border": "none",
+                              "borderRadius": 0,
+                              "transition": "0.3s"
+                        },
+                        "focus": {
+                              "outline": "none"
+                        }
+                  }
+            }
+      },
+      "B": {
+            "input": {
+                  "base": {
+                        "borderColor": "#50c878",
+                        "backgroundColor": "#50c878",
+                        "borderRadius": "50px",
+                        "color": "#1a1a1a",
+                        "fontSize": "2.4rem",
+                        "fontWeight": 600,
+                        "fontFamily": "arial"
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": "",
+                        "labelColor": "#0046ff"
+                  },
+                  "error": {
+                        "borderColor": "#50c878",
+                        "backgroundColor": "#50c878",
+                        "color": "#50c878",
+                        "labelColor": "#50c878"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#a724cc",
+                        "fontFamily": ""
+                  },
+                  "selection": {
+                        "color": "#a724cc",
+                        "backgroundColor": "#a724cc"
+                  },
+                  "disabled": {
+                        "backgroundColor": "#fbfbfb",
+                        "color": "#a724cc"
+                  }
+            },
+            "cardFields": {
+                  "title": {
+                        "color": ""
+                  },
+                  "saveForFutureLabel": {
+                        "color": ""
+                  }
+            },
+            "requiredFields": {
+                  "title": {
+                        "color": "#a724cc"
+                  }
+            },
+            "orderDetails": {
+                  "title": {
+                        "color": ""
+                  },
+                  "totalLabel": {
+                        "color": ""
+                  },
+                  "totalValue": {
+                        "color": ""
+                  }
+            },
+            "pciMessage": {
+                  "color": ""
+            },
+            "dropdown": {
+                  "backgroundColor": "",
+                  "title": {
+                        "color": ""
+                  },
+                  "base": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#1a1a1a",
+                        "borderColor": "#e9ecef",
+                        "backgroundColor": "#fff",
+                        "borderRadius": "4px",
+                        "fontFamily": ""
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": ""
+                  },
+                  "error": {
+                        "borderColor": "#ff3650",
+                        "backgroundColor": "",
+                        "color": "#ff3650"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#000",
+                        "fontFamily": ""
+                  },
+                  "disabled": {
+                        "color": "#9ba2a7",
+                        "backgroundColor": "#fbfbfb"
+                  },
+                  "item": {
+                        "transition": "0.3s",
+                        "base": {
+                              "backgroundColor": "#fff",
+                              "color": "#1a1a1a",
+                              "fontFamily": ""
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        },
+                        "hover": {
+                              "backgroundColor": "#f6f6f9",
+                              "color": ""
+                        },
+                        "selected": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        }
+                  },
+                  "list": {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": "4px",
+                        "boxShadow": "0 0 4px 0 rgba(110, 119, 125, 0.16)",
+                        "border": "solid 2px #e9ecef"
+                  }
+            },
+            "submit": {
+                  "base": {
+                        "backgroundColor": "#50c878",
+                        "color": "#543515",
+                        "fontWeight": "",
+                        "fontSize": "",
+                        "borderRadius": "",
+                        "fontFamily": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "width": "",
+                        "height": "",
+                        "padding": "",
+                        "cursor": ""
+                  },
+                  "hover": {
+                        "backgroundColor": "",
+                        "color": "",
+                        "fontWeight": "",
+                        "borderRadius": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "color": "#50c878",
+                        "backgroundColor": "#50c878"
+                  }
+            },
+            "clear": {
+                  "base": {
+                        "width": "24px",
+                        "height": "24px",
+                        "padding": "10px",
+                        "borderRadius": "50%",
+                        "backgroundColor": "transparent",
+                        "cursor": "pointer"
+                  },
+                  "hover": {
+                        "backgroundColor": "#e9ecef",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "backgroundColor": "#d7dbdf"
+                  }
+            },
+            "tooltip": {
+                  "button": {
+                        "base": {
+                              "width": "16px",
+                              "height": "16px",
+                              "border": "solid 1px #6e777d",
+                              "borderRadius": "50%",
+                              "backgroundColor": "#ffffff"
+                        },
+                        "hover": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": "",
+                              "transition": "0.3s"
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": ""
+                        }
+                  },
+                  "content": {
+                        "base": {
+                              "padding": "16px 18px",
+                              "borderRadius": "4px",
+                              "boxShadow": "0 0 6px 0 rgba(0, 0, 0, 0.12)",
+                              "border": "solid 1px #ededed",
+                              "backgroundColor": "#50c878"
+                        },
+                        "hover": {
+                              "padding": "",
+                              "borderRadius": "",
+                              "boxShadow": "",
+                              "border": "",
+                              "backgroundColor": "",
+                              "transition": "3000ms"
+                        }
+                  }
+            },
+            "cart": {
+                  "background": "none",
+                  "border": "none",
+                  "fontFamily": "inherit",
+                  "description": {
+                        "fontSize": "1.2rem",
+                        "fontWeight": 400,
+                        "color": "#1a1a1a"
+                  },
+                  "amount": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#1a1a1a"
+                  },
+                  "quantityTitle": {
+                        "fontSize": "1.2rem",
+                        "color": "#6e777d"
+                  },
+                  "quantityValue": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#4a4a4a"
+                  },
+                  "image": {
+                        "width": "",
+                        "height": "80px",
+                        "border": "none",
+                        "borderRadius": 0,
+                        "hover": {
+                              "border": "none",
+                              "borderRadius": 0,
+                              "transition": "0.3s"
+                        },
+                        "focus": {
+                              "outline": "none"
+                        }
+                  }
+            }
+      },
+      "A": {
+            "input": {
+                  "base": {
+                        "borderColor": "#e9ecef",
+                        "backgroundColor": "#fff",
+                        "borderRadius": "4px",
+                        "color": "#1a1a1a",
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "fontFamily": ""
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": "",
+                        "labelColor": "#0046ff"
+                  },
+                  "error": {
+                        "borderColor": "#ff3650",
+                        "backgroundColor": "",
+                        "color": "",
+                        "labelColor": "#ff3650"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#9ba2a7",
+                        "fontFamily": ""
+                  },
+                  "selection": {
+                        "color": "",
+                        "backgroundColor": ""
+                  },
+                  "disabled": {
+                        "backgroundColor": "#fbfbfb",
+                        "color": ""
+                  }
+            },
+            "cardFields": {
+                  "title": {
+                        "color": ""
+                  },
+                  "saveForFutureLabel": {
+                        "color": ""
+                  }
+            },
+            "requiredFields": {
+                  "title": {
+                        "color": ""
+                  }
+            },
+            "orderDetails": {
+                  "title": {
+                        "color": ""
+                  },
+                  "totalLabel": {
+                        "color": ""
+                  },
+                  "totalValue": {
+                        "color": ""
+                  }
+            },
+            "pciMessage": {
+                  "color": ""
+            },
+            "dropdown": {
+                  "backgroundColor": "",
+                  "title": {
+                        "color": ""
+                  },
+                  "base": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#1a1a1a",
+                        "borderColor": "#e9ecef",
+                        "backgroundColor": "#fff",
+                        "borderRadius": "4px",
+                        "fontFamily": ""
+                  },
+                  "active": {
+                        "borderColor": "#0046ff",
+                        "backgroundColor": "",
+                        "color": ""
+                  },
+                  "error": {
+                        "borderColor": "#ff3650",
+                        "backgroundColor": "",
+                        "color": "#ff3650"
+                  },
+                  "focus": {
+                        "outline": "none"
+                  },
+                  "placeholder": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 500,
+                        "color": "#000",
+                        "fontFamily": ""
+                  },
+                  "disabled": {
+                        "color": "#9ba2a7",
+                        "backgroundColor": "#fbfbfb"
+                  },
+                  "item": {
+                        "transition": "0.3s",
+                        "base": {
+                              "backgroundColor": "#fff",
+                              "color": "#1a1a1a",
+                              "fontFamily": ""
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        },
+                        "hover": {
+                              "backgroundColor": "#f6f6f9",
+                              "color": ""
+                        },
+                        "selected": {
+                              "backgroundColor": "#e9ecef",
+                              "color": ""
+                        }
+                  },
+                  "list": {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": "4px",
+                        "boxShadow": "0 0 4px 0 rgba(110, 119, 125, 0.16)",
+                        "border": "solid 2px #e9ecef"
+                  }
+            },
+            "submit": {
+                  "base": {
+                        "backgroundColor": "",
+                        "color": "",
+                        "fontWeight": "",
+                        "fontSize": "",
+                        "borderRadius": "",
+                        "fontFamily": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "width": "",
+                        "height": "",
+                        "padding": "",
+                        "cursor": ""
+                  },
+                  "hover": {
+                        "backgroundColor": "",
+                        "color": "",
+                        "fontWeight": "",
+                        "borderRadius": "",
+                        "border": "",
+                        "boxShadow": "",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "color": "",
+                        "backgroundColor": ""
+                  }
+            },
+            "clear": {
+                  "base": {
+                        "width": "24px",
+                        "height": "24px",
+                        "padding": "10px",
+                        "borderRadius": "50%",
+                        "backgroundColor": "transparent",
+                        "cursor": "pointer"
+                  },
+                  "hover": {
+                        "backgroundColor": "#e9ecef",
+                        "transition": "0.3s"
+                  },
+                  "active": {
+                        "backgroundColor": "#d7dbdf"
+                  }
+            },
+            "tooltip": {
+                  "button": {
+                        "base": {
+                              "width": "16px",
+                              "height": "16px",
+                              "border": "solid 1px #6e777d",
+                              "borderRadius": "50%",
+                              "backgroundColor": "#ffffff"
+                        },
+                        "hover": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": "",
+                              "transition": "0.3s"
+                        },
+                        "active": {
+                              "backgroundColor": "#e9ecef",
+                              "border": "",
+                              "borderRadius": ""
+                        }
+                  },
+                  "content": {
+                        "base": {
+                              "padding": "16px 18px",
+                              "borderRadius": "4px",
+                              "boxShadow": "0 0 6px 0 rgba(0, 0, 0, 0.12)",
+                              "border": "solid 1px #ededed",
+                              "backgroundColor": "#ffffff"
+                        },
+                        "hover": {
+                              "padding": "",
+                              "borderRadius": "",
+                              "boxShadow": "",
+                              "border": "",
+                              "backgroundColor": "",
+                              "transition": "3000ms"
+                        }
+                  }
+            },
+            "cart": {
+                  "background": "none",
+                  "border": "none",
+                  "fontFamily": "inherit",
+                  "description": {
+                        "fontSize": "1.2rem",
+                        "fontWeight": 400,
+                        "color": "#1a1a1a"
+                  },
+                  "amount": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#1a1a1a"
+                  },
+                  "quantityTitle": {
+                        "fontSize": "1.2rem",
+                        "color": "#6e777d"
+                  },
+                  "quantityValue": {
+                        "fontSize": "1.4rem",
+                        "fontWeight": 600,
+                        "color": "#4a4a4a"
+                  },
+                  "image": {
+                        "width": "",
+                        "height": "80px",
+                        "border": "none",
+                        "borderRadius": 0,
+                        "hover": {
+                              "border": "none",
+                              "borderRadius": 0,
+                              "transition": "0.3s"
+                        },
+                        "focus": {
+                              "outline": "none"
+                        }
+                  }
+            }
+      }
+}
